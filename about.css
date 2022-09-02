@@ -1,0 +1,125 @@
+/*COLORS
+background: white
+outlining: black
+midtones:
+gray (E0E0E0)
+darker purple (673AB7)
+lighter purple (7E57C5)
+*/
+
+.member {
+    display: flex;
+    margin: 36px 0px;
+}
+.member2 {
+    display: flex;
+    flex-flow: row-reverse;
+    margin-bottom: 36px;
+}
+.memberphoto {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.memberphoto2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.memberdesc {
+    width: 50%;
+}
+.memberdesc2 {
+    width: 50%;
+    text-align: right;
+}
+.subtitle {
+    margin-top: 30px;
+    font-size: 36px;
+}
+.subtitle2 {
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 36px;
+}
+.teamtitle {
+    text-align: right;
+    font-size: 90px;
+}
+.infotitle {
+    text-align: left;
+    font-size: 90px;
+}
+.divider {
+    width: 81px;
+    height: 7px;
+    border-style: none;
+    background-color: black;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.divider2 {
+    width: 81px;
+    height: 7px;
+    border-style: none;
+    background-color: black;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* For tablets: */
+    .teamtitle {
+        text-align: left;
+        font-size: 70px;
+    }
+    .infotitle {
+        text-align: left;
+        font-size: 70px;
+        margin-top: 36px;
+    }
+    .member {
+        display: inline;
+        margin: 36px 0px;
+    }
+    .member2 {
+        display: inline;
+        flex-flow: row-reverse;
+        margin-bottom: 36px;
+    }
+    .memberdesc2 {
+        text-align: left;
+    }
+    .divider2 {
+        margin-left: 0;
+    }
+    .memberphoto {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .memberdesc {
+        width: 100%;
+        margin: 0;
+    }
+    .memberphoto2 {
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .memberdesc2 {
+        width: 100%;
+    }
+    .subtitle {
+        margin-top: 10px;
+    }
+    .subtitle2 {
+        margin-top: 20;
+    }
+}

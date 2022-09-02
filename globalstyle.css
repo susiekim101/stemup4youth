@@ -1,0 +1,155 @@
+/*COLORS
+background: white
+outlining: black
+midtones:
+bright green (8acf42)
+lighter green (c3e770)
+gray (D8D8D8)
+light blue (8ddce0)
+*/
+
+/*layout*/
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+main {
+    margin: 36px;
+}
+footer {
+    
+}
+
+/*main*/
+#sidebar {
+    padding-right: 50px;
+}
+#sidebar2 {
+    padding-left: 50px;
+    text-align: right;
+}
+#content {
+    
+}
+
+.pagetitle {
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.imagesection {
+    background-image: url(https://thumbs.dreamstime.com/b/three-kids-building-robots-vehicles-robotics-lesson-smart-children-stem-education-science-people-concept-horizontal-shot-187366908.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 100px 200px 100px;
+    display: inline-block;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    color: white;
+    /*text-shadow: 0px 0px 10px grey;*/
+    font-size: 140;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.subtitle {
+    font-size: 90px;
+}
+
+.horizontal {
+    padding: 50px;
+    display: flex;
+}
+.horizontal2 {
+    padding: 50px;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+/*text styles*/
+h1 {
+    font-family: 'Roboto';
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+h2 {
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+p {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 30px;
+}
+.link {
+    margin-left: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease-out;
+    font-family: 'Lato', sans-serif;
+}
+.link:hover {
+    color: #8acf42;
+    /*text-shadow: 0px 0px 10px #8acf42;*/
+    transition: 0.2s ease-out;
+}
+
+.link-button {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    border-style: solid;
+    border-width: 4px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    transition: 0.2s ease-out;
+}
+.link-button:hover {
+    background-color: #8acf42;
+    border-color: #8acf42;
+    box-shadow: 0px 0px 10px #8acf42;
+    transition: 0.2s ease-in;
+}
+.bolded {
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+}
+.linkcontainer {
+    background-color: #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    max-width: 800px;
+    margin-top: 10%;
+    border-style: solid;
+    border-color: rgba(0,0,0,0);
+    transition: all 0.2s ease-in;
+    margin: 20px;
+}
+.linkcontainer:hover {
+    /*
+    box-shadow: 0px 0px 45px #ffffff, 28px 28px 50px gray;*/
+    border-color: #8acf42;
+}
